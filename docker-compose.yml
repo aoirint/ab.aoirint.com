@@ -12,8 +12,8 @@ version: "3.9"
 
 services:
     archivebox:
-        # image: archivebox/archivebox:sha-f809e3b
-        image: archivebox/archivebox:0.6.2
+        image: archivebox/archivebox:sha-f809e3b
+        # image: archivebox/archivebox:0.6.2
         command: server --quick-init 0.0.0.0:8000
         ports:
           - "${SERVER_PORT:-8000}:8000"
